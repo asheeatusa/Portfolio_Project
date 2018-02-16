@@ -1,0 +1,113 @@
+
+body, 
+html {
+	margin: 0;
+	min-width: 1%;
+	min-height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	padding: 1% 10%;
+ }
+
+.inner_header {
+	width: 1200px;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	border-radius: 50%;
+	height: 100px;
+
+}
+
+.title {
+	 display: flex;
+	 flex-wrap: wrap;
+	 flex-direction: column;
+	 justify-content: center;
+	 text-align: right;
+}
+
+.name {
+	font-family: Roboto;
+	font-size: 33px;
+	margin: 0;
+}
+
+.profession {
+	padding-top: 3%;
+	color: #2d3c49;
+	margin: 0px;
+	margin-bottom: 0px;
+}
+
+hr {
+	width: 80%;
+	padding-left: 100px;
+	border-width: 2px;
+	border-color: #7d96ad
+}
+
+.main_image {
+	max-width: 100%;
+}
+
+.front_page_image {
+	max-width: 100%;
+	box-shadow: 5px 5px #888888;
+	border: 24px;
+}
+
+.top_portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.portfolio_image {
+	height: 230px;
+	padding: 0;
+	max-width: 100%;
+	box-shadow: 5px 9px #888888;
+}
+
+.featured {
+	text-transform: uppercase;
+	/*font-family: Roboto;*/
+}
+
+
+.featured_title {
+	text-align: left;
+	padding-left: 10%;
+	font-size: 25px;
+	color: #7d96ad;
+}
+
+.app_name {
+	text-align: center;
+}
+
+.app_link {
+	max-width: 100%;
+	padding-right: 20px;
+	text-transform: lowercase;
+}
+
+main {
+  	width: 100%;
+  	text-align: center;
+  	display: flex;
+  	flex-direction: column;
+}

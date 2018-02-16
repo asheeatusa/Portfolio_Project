@@ -1,0 +1,130 @@
+
+body, html {
+	margin: 0;
+	min-width: 1%;
+	min-height: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 1%;
+	max-width: 100%
+
+ }
+
+div.inner_header {
+	/*min-width: 100%;*/
+	max-width: 100%;
+	height: auto;
+	display: flex;
+	 /*justify-content: center;*/
+}
+
+.logo {
+	border-radius: 50%;
+	height: 100px;
+		
+}
+
+/*div.title {
+	max-width: 100%;
+
+}
+*/
+.name {
+	  	 
+display: flex;
+justify-content: flex-end;
+
+
+}
+
+.profession {
+	justify-content: flex-end;
+	margin-left: 20px;
+	
+}
+
+hr {
+	max-width: 100%;
+	margin-top: 2%;
+	border-width: 2px;
+	border-color: #7d96ad
+}
+
+.main_image {
+	max-width: 100%;
+}
+
+.front_page_image {
+	max-width: 100%;
+	box-shadow: 5px 5px #888888;
+	border: 24px;
+}
+
+.top_portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	padding-right: 9%;
+	padding-left: 10%;
+
+
+		/*margin-left: auto;
+	margin-right: auto;
+	
+	padding: 0;
+	margin: 0*/;
+	/*align-self: center;*/
+}
+
+.portfolio_image {
+	height: 230px;
+	padding: 0;
+	max-width: 100%;
+	box-shadow: 5px 9px #888888;
+}
+
+.featured {
+	padding-right: 0.2%;
+	text-transform: uppercase;
+
+
+/*	 box-sizing: border-box;
+	 position: relative;
+*/	}
+
+.featured_title {
+	text-align: left;
+	padding-left: 125px;
+	font-size: 30px;
+	color: #2d3c49;
+
+}
+
+.app_name {
+	text-align: center;
+}
+
+.app_link {
+	max-width: 100%;
+	padding-right: 20px;
+    /*margin: 0;*/
+}
+
+main {
+  	width: 100%;
+  	text-align: center;
+
+  	display: flex;
+  	flex-direction: column;
+  	/*justify-content: center;*/
+}
